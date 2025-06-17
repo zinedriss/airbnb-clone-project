@@ -32,25 +32,128 @@
 
 ---
 
-## 🎨 UI/UX Design
+## 🎨 UI/UX Design Planning
 
-- **Color Palette:**
-  - Primary: `#FF5A5F`
-  - Secondary: `#008489`
-  - Background: `#FFFFFF`
-  - Text: `#222222`
-  - Secondary Text: `#717171`
+### 🎯 Design Goals
 
-- **Typography:**
-  - Font Family: Circular
-  - Headings: Bold, 24–32px
-  - Body: Medium, 16px
-  - Secondary Text: Book, 14px
+The design of StayEase focuses on creating an intuitive, fast, and seamless booking experience for users. The key UI/UX design goals include:
 
-- **Design Goals:**
-  - Intuitive and mobile-first booking flow
-  - Consistent layout and components
-  - Fast load times and simple navigation
+- ✅ **Intuitive Booking Flow**: Ensure users can search, view, and book properties with minimal friction.
+- ✅ **Visual Consistency**: Use consistent typography, color schemes, and components throughout the application.
+- ✅ **Fast Loading Times**: Optimize assets and minimize layout shifts to enhance performance.
+- ✅ **Mobile Responsiveness**: Follow a mobile-first approach to ensure the app looks and works great on all screen sizes.
+
+---
+
+### 🌟 Key Features
+
+- 🔍 **Property Search and Filtering**
+- 📝 **Detailed Property Viewing**
+- 💳 **Secure Checkout Process**
+- 🔐 **User Authentication**
+
+---
+
+### 📄 Primary Pages
+
+| Page Name              | Description                                                                 |
+|------------------------|-----------------------------------------------------------------------------|
+| **Property Listing View** | Displays available properties in a grid with search filters. Each card shows images, price, location, and rating. |
+| **Listing Detailed View** | Shows full property details including amenities, reviews, and a booking form. Large image carousel included. |
+| **Simple Checkout View** | A minimal, secure checkout page to complete bookings and confirm payment. |
+
+---
+
+### 💡 Importance of User-Friendly Design
+
+A user-friendly design is essential for a high-conversion booking platform:
+
+- 🧭 **Simplifies Navigation**
+- 📱 **Enhances Mobile Experience**
+- ⚡ **Boosts Performance**
+- 👍 **Builds Trust**
+
+The goal is to make the booking process **feel effortless**, **look appealing**, and **perform reliably**.
+
+---
+
+### 🎨 Figma Design Specifications
+
+#### 🖌️ Color Styles
+
+- **Primary:** `#FF5A5F` – buttons, highlights, branding
+- **Secondary:** `#008489` – accents and links
+- **Background:** `#FFFFFF` – page background
+- **Text:** `#222222` – main text
+- **Secondary Text:** `#717171` – descriptions and captions
+
+#### ✒️ Typography
+
+- **Font Family:** Circular
+- **Headings:** Bold (700), 24px–32px
+- **Body Text:** Medium (500), 16px
+- **Secondary Text:** Book (400), 14px
+
+---
+
+### 📌 Why Design Properties Matter
+
+Referencing design properties from mockups like Figma ensures:
+
+- 🎯 **Consistency** in look and feel  
+- 📐 **Pixel-perfect UI** translation  
+- 🧠 **Better team alignment**  
+- 📱 **Responsive layouts**  
+- 🧩 **Reusable components**
+
+This reduces bugs, accelerates development, and delivers a more polished user experience.
+
+---
+
+## 👥 Project Roles and Responsibilities
+
+| Role               | Responsibilities |
+|--------------------|------------------|
+| **Project Manager** | Coordinates deadlines, monitors progress, manages communication |
+| **Frontend Developer** | Builds UI components, implements responsive design, integrates APIs |
+| **Backend Developer** | Develops REST APIs, handles database operations, enforces business logic |
+| **Designer** | Creates and maintains UI mockups, ensures design consistency and UX quality |
+| **QA/Testers** | Writes test cases, performs manual and automated testing, logs bugs |
+| **DevOps Engineer** | Manages cloud deployment, CI/CD pipelines, and infrastructure |
+| **Product Owner** | Defines user stories, prioritizes features, communicates stakeholder vision |
+| **Scrum Master** | Runs agile ceremonies, tracks blockers, maintains sprint velocity |
+
+These roles work collaboratively to ensure a successful, on-time delivery of the project.
+
+---
+
+## 🧩 UI Component Patterns
+
+We will design and implement reusable, modular components to ensure consistency and scalability. Key components include:
+
+### 🔝 Navbar
+
+- Logo
+- Search bar
+- User navigation (Login, Profile, Logout)
+- Responsive menu for mobile
+
+### 🏠 Property Card
+
+- Property image thumbnail
+- Price per night
+- Location & rating
+- Favorite (❤️) button
+- Compact, responsive layout
+
+### 🔚 Footer
+
+- Site navigation links
+- Company info
+- Social media icons
+- Copyright
+
+All components will be built with accessibility in mind, ensuring responsiveness on various screen sizes and devices.
 
 ---
 
@@ -75,71 +178,18 @@
 
 ---
 
-## 👥 Roles & Responsibilities
+## 📁 Repository Structure
 
-| Role               | Responsibilities |
-|--------------------|------------------|
-| Project Manager    | Oversee timeline and delivery |
-| Frontend Developer | Build responsive UI components |
-| Backend Developer  | API development and DB management |
-| Designer           | Figma mockups, design system |
-| QA/Testers         | Testing and bug reports |
-| DevOps             | CI/CD, deployment |
-| Product Owner      | Feature prioritization and documentation |
-| Scrum Master       | Daily standups, task management |
-
----
-
-## 🧩 Planned UI Components
-
-- **Navbar:** Logo, search bar, user nav, mobile menu
-- **Property Card:** Image, title, rating, price, favorite icon
-- **Footer:** Links, company info, social icons, copyright
-
-All components will be reusable and mobile-friendly.
-
----
-
-## 🎨 UI/UX Design Planning
-
-### 🎯 Design Goals
-
-The design of StayEase focuses on creating an intuitive, fast, and seamless booking experience for users. The key UI/UX design goals include:
-
-- ✅ **Intuitive Booking Flow**: Ensure users can search, view, and book properties with minimal friction.
-- ✅ **Visual Consistency**: Use consistent typography, color schemes, and components throughout the application.
-- ✅ **Fast Loading Times**: Optimize assets and minimize layout shifts to enhance performance.
-- ✅ **Mobile Responsiveness**: Follow a mobile-first approach to ensure the app looks and works great on all screen sizes.
-
----
-
-### 🌟 Key Features
-
-- 🔍 **Property Search and Filtering**: Allow users to filter listings based on location, price, ratings, etc.
-- 📝 **Detailed Property Viewing**: Present full descriptions, amenities, reviews, and images.
-- 💳 **Secure Checkout Process**: Streamlined booking and payment with clear steps.
-- 🔐 **User Authentication**: Secure login/signup and session management.
-
----
-
-### 📄 Primary Pages
-
-| Page Name              | Description                                                                 |
-|------------------------|-----------------------------------------------------------------------------|
-| **Property Listing View** | Displays available properties in a grid with search filters. Each card shows images, price, location, and rating. |
-| **Listing Detailed View** | Shows full property details including amenities, reviews, and a booking form. Large image carousel included. |
-| **Simple Checkout View** | A minimal, secure checkout page to complete bookings and confirm payment. |
-
----
-
-### 💡 Importance of User-Friendly Design
-
-A user-friendly design is essential for a high-conversion booking platform:
-
-- 🧭 **Simplifies Navigation**: Clear paths reduce user confusion and bounce rates.
-- 📱 **Enhances Mobile Experience**: Mobile users expect smooth interactions with minimal typing.
-- ⚡ **Boosts Performance**: Users are less likely to abandon slow, clunky interfaces.
-- 👍 **Builds Trust**: Clean, professional design increases credibility and user satisfaction.
-
-The goal is to make the booking process **feel effortless**, **look appealing**, and **perform reliably**.
-
+```bash
+airbnb-clone-project/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── pages/
+│   ├── styles/
+│   ├── services/
+│   └── App.js
+├── .gitignore
+├── package.json
+└── README.md
